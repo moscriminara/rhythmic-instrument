@@ -127,7 +127,7 @@ const loginStatus = computed( () => {
         
           <list>
             <h3>Github</h3>
-            <p>Comming Soon</p>
+            <a href="https://github.com/moscriminara/rhythmic-instrument">Rhythmic Instrument</a>
           </list>
 
         </div>
