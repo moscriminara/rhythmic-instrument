@@ -1,5 +1,5 @@
 const config = {
-    API: "https://api.rhyinstru.uk/api",
+    API: "https://api.rhyinstru.uk",
     VERSION: "1.0.0",
 }
 
