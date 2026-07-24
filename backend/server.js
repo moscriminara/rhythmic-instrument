@@ -10,25 +10,26 @@ const path = require("path");
 const verificationCode = {}
 
 app.use(cors({
-    origin: "https://rhyinstru.uk"
+    origin:[
+        "https://rhythmic-instrument.vercel.app",
+        "https://rhyinstru.uk"
+    ]
 }))
 
 app.use(express.json())
 
-app.use("/uploads", express.static(path.join(__dirname, "uploads")))
-
 const db = mysql.createConnection({
-    host:"localhost",
-    user:"root",
-    password:"chenweichen2008",
-    database:"rhyinstru"
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME
 })
 
 const transporter = nodemailer.createTransport({
     service: "gmail",
-    auth: {
-        user: "moscriminara@gmail.com",
-        pass: "ecuktqyjxzyvtelg"
+    auth:{
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASSWORD
     }
 })
 
@@ -372,6 +373,4 @@ app.post('/upload-result', (req, res) => {
 
 })
 
-app.listen(3000, "0.0.0.0", () => {
-    console.log("Server is running at 3000")
-})
+module.exports = app
