@@ -1,0 +1,23 @@
+[
+  {
+    "id": "sheet_intro",
+    "lessonname": "Sheet Music",
+    "cover": "https://images.squarespace-cdn.com/content/v1/6043cccd1b15ec3dfef5639f/8db417a9-e285-4460-90e6-d2ba67fb9603/AdobeStock_232336186.jpeg",
+    "intro": "Introduce the elements in sheet music"
+  },
+  {
+    "id": "pt",
+    "lessonname": "Piano Tutorial",
+    "cover": "https://thumbs.dreamstime.com/b/d-illustration-classic-piano-keys-basic-shapes-neutral-colored-background-simplicity-minimalist-vector-style-330200236.jpg"
+  },
+  {
+    "id": "pbc",
+    "lessonname": "Piano Beginner Course",
+    "cover": "https://thumbs.dreamstime.com/b/d-illustration-classic-piano-keys-basic-shapes-neutral-colored-background-simplicity-minimalist-vector-style-330200236.jpg"
+  },
+  {
+    "id": "pac",
+    "lessonname": "Piano Advanced Course",
+    "cover": "https://thumbs.dreamstime.com/b/d-illustration-classic-piano-keys-basic-shapes-neutral-colored-background-simplicity-minimalist-vector-style-330200236.jpg"
+  }
+]
