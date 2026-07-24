@@ -1,3 +1,10 @@
 const app = require("../server")
 
-module.exports = app
+module.exports = (req, res) => {
+
+    if (req.url.startsWith("/api")) {
+        req.url = req.url.replace("/api", "")
+    }
+
+    return app(req, res)
+}
