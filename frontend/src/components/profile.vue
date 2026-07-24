@@ -23,7 +23,7 @@ function logOut() {
 <template>
   <div>
     <section id="center">
-        <h1>{{ user.username }}</h1>
+        <h1>{{ user?.username }}</h1>
     </section>
 
     <div class="ticks"></div>
@@ -36,17 +36,17 @@ function logOut() {
 
         <div>
           <h3>AVERAGE ACCURACY</h3>
-          <h1>{{ user.average_accuracy }}</h1>
+          <h1>{{ user?.average_accuracy }}</h1>
         </div>
         
         <div>
           <h3>HITTED NOTES</h3>
-          <h1>{{ user.total_hits }}</h1>
+          <h1>{{ user?.total_hits }}</h1>
         </div>
 
         <div>
           <h3>TOTAL PLAY TIME</h3>
-          <h1>{{ user.total_plays }}</h1>
+          <h1>{{ user?.total_plays }}</h1>
         </div>
       </div>
 
