@@ -1,5 +1,5 @@
 const config = {
-    API: "https://api.rhyinstru.uk",
+    API: "https://rhythmic-instrument-backend.vercel.app/api",
     VERSION: "1.0.0",
 }
 
