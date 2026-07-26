@@ -60,19 +60,6 @@ import config from "../config"
         />
       </div>
     </section>
-
-
-    <div class="ticks"></div>
-    <section id="spacer"></section>
-
-
-    <section>
-      <h2>Licence</h2>
-      <div>
-        <img style="width: 200px; margin: 15px;" src="https://static.vecteezy.com/system/resources/thumbnails/053/227/245/small/graphic-representation-of-a-driver-s-license-card-with-a-male-photo-personal-details-and-security-features-png.png">
-      </div>
-    </section>
-
     
   </div>
 </template>
