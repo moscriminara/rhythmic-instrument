@@ -363,22 +363,4 @@ app.post('/upload-result', (req, res) => {
 
 })
 
-app.get("/api-test", (req,res)=>{
-
-    db.query(
-        "SELECT DATABASE() AS db",
-        (err,result)=>{
-
-            if(err){
-                return res.json({
-                    error:err.message
-                })
-            }
-
-            res.json(result)
-        }
-    )
-
-})
-
 module.exports = app
