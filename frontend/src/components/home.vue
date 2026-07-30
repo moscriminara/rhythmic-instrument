@@ -133,7 +133,6 @@ const loginStatus = computed( () => {
         </div>
     
         <p>
-          @ Moment <br>
           @ Tough Guy™ LLC.
         </p>
         <br>

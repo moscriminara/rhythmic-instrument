@@ -12,7 +12,9 @@ export async function loadUser() {
         return
     }
 
-    const response = await fetch(`${config.API}/user/${saved_user.id}`)
+    const response = await fetch(
+        `${config.API}/user/${saved_user.id}`
+    )
 
     const data = await response.json()
 
